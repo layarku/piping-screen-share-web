@@ -32,13 +32,13 @@
       <v-flex xs12 sm8 offset-sm2 offset-md3 md6>
         <v-card style="padding: 1em;">
           <!-- Server URL -->
-          <v-text-field type="text" v-model="serverUrl" label="Server URL" />
+          <v-text-field type="text" v-model="serverUrl" label="Lokasine Server" />
           <!-- Screen ID -->
-          <v-text-field type="text" v-model="screenId" label="Screen ID" placeholder="Input screen ID" />
+          <v-text-field type="text" v-model="screenId" label="Jeneng" placeholder="Leboke Jenenge" />
           <!-- Passphrase -->
-          <v-text-field label="Passphrase (optional)"
+          <v-text-field label="Kuncine"
                         v-model="passphrase"
-                        placeholder="Input passphrase"
+                        placeholder="Leboke Kuncine"
                         :type="showPassphrase ? 'text' : 'password'"
                         :append-icon="showPassphrase ? 'visibility' : 'visibility_off'"
                         @click:append="showPassphrase = !showPassphrase"
