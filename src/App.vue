@@ -1,6 +1,7 @@
 <template>
   <v-app id="app">
-    <h1>New Tab</h1>
+    <h1>Jambul PE</h1>
+    <hr>
     <PipingScreenShare />
   </v-app>
 </template>
