@@ -1,6 +1,6 @@
 <template>
   <v-app id="app">
-    <h1>Piping Screen Share</h1>
+    <h1>New Tab</h1>
     <PipingScreenShare />
   </v-app>
 </template>
