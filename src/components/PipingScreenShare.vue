@@ -34,15 +34,15 @@
           <!-- Server URL -->
           <v-text-field type="text" v-model="serverUrl" label="Lokasine Server" />
           <!-- Screen ID -->
-          <v-text-field type="text" v-model="screenId" label="Jeneng" placeholder="Leboke Jenenge" />
-          <!-- Passphrase -->
+          <v-text-field type="text" v-model="screenId" label="Jeneng" value="aku" placeholder="Leboke Jenenge" />
+          <!-- Passphrase
           <v-text-field label="Kuncine"
                         v-model="passphrase"
                         placeholder="Leboke Kuncine"
                         :type="showPassphrase ? 'text' : 'password'"
                         :append-icon="showPassphrase ? 'visibility' : 'visibility_off'"
                         @click:append="showPassphrase = !showPassphrase"
-          />
+          /> -->
 
           <v-btn v-if="shareOrView === 'share'"
                  color="primary"
