@@ -32,9 +32,9 @@
       <v-flex xs12 sm8 offset-sm2 offset-md3 md6>
         <v-card style="padding: 1em;">
           <!-- Server URL -->
-          <v-text-field type="text" v-model="serverUrl" label="Lokasine Server" />
+          <v-text-field type="text" v-model="serverUrl" label="Server" />
           <!-- Screen ID -->
-          <v-text-field type="text" v-model="screenId" label="Jeneng" value="aku" placeholder="Leboke Jenenge" />
+          <v-text-field type="text" v-model="screenId" label="Masukan ID" placeholder="ID Share" />
           <!-- Passphrase
           <v-text-field label="Kuncine"
                         v-model="passphrase"
@@ -49,7 +49,7 @@
                  v-on:click="shareScreen()"
                  block
                  :disabled="!enableActionButton">
-            Share
+            Mulai
             <v-icon right dark>screen_share</v-icon>
           </v-btn>
 
